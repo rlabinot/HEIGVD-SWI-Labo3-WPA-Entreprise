@@ -51,29 +51,44 @@ Dans cette première partie, vous allez capturer une connexion WPA Entreprise au
 	- 4-way hadshake
 
 ### Répondez aux questions suivantes :
- 
+
 > **_Question :_** Quelle ou quelles méthode(s) d’authentification est/sont proposé(s) au client ?
-> 
+>
 > **_Réponse :_** 
+>
+> (1) L'AP propose au client d'utiliser la méthode EAP-TLS
+>
+> (2) Le client indique qu'il préfère la méthode d'authentification EAP-PEAP
+>
+> (3) L'AP accepte la méthode EAP-PEAP proposé par le client
+>
+> ![](./img/reponse1.jpg)
+>
+> 
+>
+> 
 
 ---
 
 > **_Question:_** Quelle méthode d’authentification est utilisée ?
 > 
-> **_Réponse:_** 
+> **_Réponse:_** EAP-PEAP
 
 ---
 
 > **_Question:_** Lors de l’échange de certificats entre le serveur d’authentification et le client :
-> 
+>
 > - Le serveur envoie-t-il un certificat au client ? Pourquoi oui ou non ?
-> 
+>
 > **_Réponse:_**
-> 
+>
+> Oui il envoie un certificat car c'est dans le but d'identifier le serveur Radius auprès du client.
+>
 > - b.	Le client envoie-t-il un certificat au serveur ? Pourquoi oui ou non ?
-> 
+>
 > **_Réponse:_**
-> 
+>
+> Non parce que le client n'utilise pas EAP-TLS, il utilise EAP-PEAP. Ce qui veut dire que l'authentification se passe en MS-CHAP en EAPOL.
 
 ---
 
