@@ -82,13 +82,17 @@ Dans cette première partie, vous allez capturer une connexion WPA Entreprise au
 >
 > **_Réponse:_**
 >
-> Oui il envoie un certificat car c'est dans le but d'identifier le serveur Radius auprès du client.
+> Oui il envoie un certificat car c'est dans le but d'identifier le serveur Radius auprès du client. Le certificat permet également de créer une communication chiffrée.
+> C'est grâce à ce certificat que les infos des prochains échanges sont notés "Application Data". Ces échanges sont chiffrés et il est impossible pour un attaquant de voir les données.
+> Ce certificat permet donc de chiffrer (sécuriser) l'authentification MS-CHAP.
+>
+> 
 >
 > - b.	Le client envoie-t-il un certificat au serveur ? Pourquoi oui ou non ?
 >
 > **_Réponse:_**
 >
-> Non parce que le client n'utilise pas EAP-TLS, il utilise EAP-PEAP. Ce qui veut dire que l'authentification se passe en MS-CHAP en EAPOL.
+> Non parce que le client n'utilise pas EAP-TLS, il utilise EAP-PEAP. Ce qui veut dire que l'authentification se passe en MS-CHAP  (avec un challenge) en EAPOL.
 
 ---
 
