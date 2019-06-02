@@ -118,17 +118,63 @@ Pour implémenter l’attaque :
 > 
 > **_Réponse :_** 
 
----
+Le fichier se trouve dans le dossier ``/etc`` => ``/etc/hostapd-wpe``
+Dans ce fichier on va pouvoir définir le nom du SSID diffusé et le canal.
+Il est également nécessaire de définir l'interface d'écoute.
 
-> **_Question:_** Quel type de hash doit-on indiquer à john pour craquer le handshake ?
+```shell
+# Interface ...
+interface=wlan0
+
+# ...
+
+# 802.11 Options
+ssid=HEIG-VD-lr-dh
+channel=1
+```
+
+Mettre également l'interface en monitor
+
+```shell
+sudo airmon-ng start wlan0
+```
+
+> **Question:_** Quel type de hash doit-on indiquer à john pour craquer le handshake ?
 > 
 > **_Réponse:_** 
 
----
+> > > > > > >>>>>Ajouter la capture d'écran.
+
+``NETNTLM``
+
+On voit dans la caputre d'écran ci-dessus :
+
+* Le username de l'utilisateur
+* Un hash de son mot de passe
+* Le challenge envoyé par le serveur d'authentification
 
 > **_Question:_** 6.	Quelles méthodes d’authentification sont supportées par hostapd-wpe ?
 > 
 > **_Réponse:_**
+
+1. EAP-FAST/MSCHAPv2 (Phase 0)
+2. PEAP/MSCHAPv2
+3. EAP-TTLS/MSCHAPv2
+4. EAP-TTLS/MSCHAP
+5. EAP-TTLS/CHAP
+6. EAP-TTLS/PAP
+
+
+
+Configuration
+
+```shell
+sudo john --format=netntlm hash.txt
+```
+
+```shell
+# LE FICHIER DE CONFIG 
+```
 
 
 ## Quelques éléments à considérer :
@@ -149,6 +195,10 @@ Un fork du repo original . Puis, un Pull Request contenant :
 
 -	Captures d’écran + commentaires
 -	Réponses aux questions
+
+# Référance
+
+https://whiteflag.blog/2018/11/19/hostapd-wpe-attaquer-un-reseau-wi-fi-dentreprise/
 
 
 ## Échéance
