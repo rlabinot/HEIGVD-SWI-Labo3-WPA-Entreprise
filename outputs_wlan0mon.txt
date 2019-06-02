@@ -1,0 +1,104 @@
+Configuration file: /etc/hostapd-wpe/hostapd-wpe.conf
+Using interface wlan0mon with hwaddr 00:c0:ca:90:01:b9 and ssid "HEIG-VD-Zbeubzbeub"
+wlan0mon: interface state UNINITIALIZED->ENABLED
+wlan0mon: AP-ENABLED 
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: authenticated
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: associated (aid 1)
+wlan0mon: CTRL-EVENT-EAP-STARTED 4c:d1:a1:2f:d7:33
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=25
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+
+
+mschapv2: Sun Jun  2 08:47:19 2019
+	 username:	labinot
+	 challenge:	09:80:5b:35:c3:9b:76:43
+	 response:	ec:dd:e1:2f:6e:0d:8b:7c:75:f2:64:c6:f6:60:fa:05:2c:23:26:b7:f8:5f:86:c1
+	 jtr NETNTLM:		labinot:$NETNTLM$09805b35c39b7643$ecdde12f6e0d8b7c75f264c6f660fa052c2326b7f85f86c1
+	 hashcat NETNTLM:	labinot::::ecdde12f6e0d8b7c75f264c6f660fa052c2326b7f85f86c1:09805b35c39b7643
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-FAILURE 4c:d1:a1:2f:d7:33
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: authentication failed - EAP type: 0 (unknown)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Supplicant used different EAP type: 25 (PEAP)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: authenticated
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: associated (aid 1)
+wlan0mon: CTRL-EVENT-EAP-STARTED 4c:d1:a1:2f:d7:33
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=25
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+
+
+mschapv2: Sun Jun  2 08:47:21 2019
+	 username:	labinot
+	 challenge:	7d:e5:30:6f:0e:c8:e2:48
+	 response:	02:ce:e2:22:31:31:6f:45:8d:4e:38:02:cf:27:13:a1:ec:cd:46:4d:39:30:7a:ed
+	 jtr NETNTLM:		labinot:$NETNTLM$7de5306f0ec8e248$02cee22231316f458d4e3802cf2713a1eccd464d39307aed
+	 hashcat NETNTLM:	labinot::::02cee22231316f458d4e3802cf2713a1eccd464d39307aed:7de5306f0ec8e248
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-FAILURE 4c:d1:a1:2f:d7:33
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: authentication failed - EAP type: 0 (unknown)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Supplicant used different EAP type: 25 (PEAP)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: authenticated
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: associated (aid 1)
+wlan0mon: CTRL-EVENT-EAP-STARTED 4c:d1:a1:2f:d7:33
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=25
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+
+
+mschapv2: Sun Jun  2 08:47:23 2019
+	 username:	labinot
+	 challenge:	0f:1c:38:0a:cd:5f:64:0a
+	 response:	cc:47:d1:d5:73:08:2c:fa:e1:e7:14:29:3f:ee:b3:a4:77:4c:81:9b:18:2c:4d:0a
+	 jtr NETNTLM:		labinot:$NETNTLM$0f1c380acd5f640a$cc47d1d573082cfae1e714293feeb3a4774c819b182c4d0a
+	 hashcat NETNTLM:	labinot::::cc47d1d573082cfae1e714293feeb3a4774c819b182c4d0a:0f1c380acd5f640a
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-FAILURE 4c:d1:a1:2f:d7:33
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: authentication failed - EAP type: 0 (unknown)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Supplicant used different EAP type: 25 (PEAP)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: authenticated
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: associated (aid 1)
+wlan0mon: CTRL-EVENT-EAP-STARTED 4c:d1:a1:2f:d7:33
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=25
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+
+
+mschapv2: Sun Jun  2 08:47:28 2019
+	 username:	labinot
+	 challenge:	16:eb:b1:00:47:6d:02:16
+	 response:	ab:24:f9:86:4a:07:7e:78:f3:d0:5b:63:c0:64:40:4f:f7:91:ff:b1:d9:70:e7:65
+	 jtr NETNTLM:		labinot:$NETNTLM$16ebb100476d0216$ab24f9864a077e78f3d05b63c064404ff791ffb1d970e765
+	 hashcat NETNTLM:	labinot::::ab24f9864a077e78f3d05b63c064404ff791ffb1d970e765:16ebb100476d0216
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: CTRL-EVENT-EAP-FAILURE 4c:d1:a1:2f:d7:33
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: authentication failed - EAP type: 0 (unknown)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Supplicant used different EAP type: 25 (PEAP)
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.11: deauthenticated due to local deauth request
